@@ -2,7 +2,6 @@
 const int LAT = 10;  // Latch
 const int SIN = 11;  // Serial data input (to bargraph)
 const int CLK = 13;  // Clock
-const int CLR = 9;   // clear
 const int DELAY = 500;
 const int swPin = 2;
 const int musPin = 3;
@@ -16,7 +15,6 @@ void setup()
   pinMode( LAT, OUTPUT ); // led matrix
   pinMode( SIN, OUTPUT ); // led matrix
   pinMode( CLK, OUTPUT ); // led matrix
-  pinMode( CLR, INPUT ); // led matrix
   pinMode( swPin, INPUT ); // ping that the switch is attached to
   pinMode( musPin, OUTPUT ); // pin that goes to the music controlling arduino
   Serial.begin( 9600 );
