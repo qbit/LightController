@@ -1,0 +1,7 @@
+Each bargraph needs 5 pins ( plus 5v / G )
+	LAT, SIN, CLK, SW, MUS
+
+	SW - input that comes from a switch - how the program knows to fire
+	off the display / music
+
+	MUS - the output pin that is connected to the music playing arduino.
